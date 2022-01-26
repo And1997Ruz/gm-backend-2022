@@ -1,0 +1,106 @@
+//Categories
+GET http://localhost:5000/api/categories
+
+
+###
+GET http://localhost:5000/api/categories/61a104977455af30d1ca7af5
+
+###
+POST http://localhost:5000/api/categories
+Content-Type: application/json
+
+{
+    "name": "Спортивные товары"
+}
+
+###
+PATCH http://localhost:5000/api/categories/61a1047b7455af30d1ca7aee
+Content-Type: application/json
+
+{
+    "name": "Phones"
+}
+
+###
+DELETE http://localhost:5000/api/categories/61a1047b7455af30d1ca7aee
+
+
+###
+//Items
+GET http://localhost:5000/api/items
+
+###
+GET http://localhost:5000/api/items/61a11b1bd7b2f2af66eac4d9
+
+###
+POST http://localhost:5000/api/items
+Content-Type: Application/json
+
+{
+    "name": "Iphone 12 Pro Max",
+    "description": "в идеальном состоянии",
+    "price": "8500",
+    "userId": "61b0423cbb7a281406f301c2",
+    "categoryId": "61b04198bb7a281406f301a1"
+}
+
+###
+PATCH http://localhost:5000/api/items/61c43caf456dc435133b09a2
+Content-Type: application/json
+
+{
+    "categoryId": "61b041cfbb7a281406f301af"
+}
+
+###
+DELETE http://localhost:5000/api/items/61a1534874eabffbe18e071a
+
+
+###
+//Users
+GET http://localhost:5000/api/users
+
+
+###
+POST http://localhost:5000/api/users
+Content-Type: application/json
+
+{
+    "name": "Andrey Ruznyaev",
+    "phone": "89270317242",
+    "email": "andddd1997@gmail.com",
+    "password": "VeryHardPassword12345"
+}
+
+###
+PATCH http://localhost:5000/api/users/61a8aa0751d9e6ec9c1e1cca
+Content-Type: application/json
+
+{
+    "email": "jf7ddsdstgdwef@mail.com"
+}
+
+###
+DELETE http://localhost:5000/api/users/61a8b9261c499c8acb26414a
+
+###
+//Authentication
+POST http://localhost:5000/api/auth
+Content-Type: application/json
+
+{
+    "email": "goat8@gmail.com",
+    "password": "VeryHardPassword12345"
+}
+
+
+###
+//Deleting files
+
+POST http://localhost:5000/api/deleteFile
+Content-Type: application/json
+
+{
+    "filePath": "/uploads/itemPictures/1642349test.png",
+    "itemId": "61e4429faaf9621f6b3eb59e"
+}
