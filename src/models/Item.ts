@@ -27,8 +27,8 @@ const ItemSchema = new mongoose.Schema({
     required: true,
   },
   dateOfPost: {
-    type: Date,
-    default: Date.now,
+    type: String,
+    default: "dfdfdfdfdfdf",
   },
   itemPicture: {
     type: [String],
