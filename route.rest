@@ -37,11 +37,11 @@ POST http://localhost:5000/api/items
 Content-Type: Application/json
 
 {
-    "name": "Iphone 12 Pro Max",
-    "description": "в идеальном состоянии",
-    "price": "8500",
-    "userId": "61b0423cbb7a281406f301c2",
-    "categoryId": "61b04198bb7a281406f301a1"
+    "name": "test22222",
+    "description": "test22222",
+    "price": "8500332",
+    "userId": "61f0226b309ea1cda9fff05c",
+    "categoryId": "61a1524b492e5ffc8098bc47"
 }
 
 ###
