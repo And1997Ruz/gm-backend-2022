@@ -1,0 +1,113 @@
+[{
+  "_id": {
+    "$oid": "61a15181a03c12e38fc1862a"
+  },
+  "name": "Остальные",
+  "__v": 0,
+  "iconPath": "/uploads/categoriesIcons/остальное.jpg"
+},{
+  "_id": {
+    "$oid": "61a1524b492e5ffc8098bc47"
+  },
+  "name": "Автотовары",
+  "__v": 0,
+  "iconPath": "/uploads/categoriesIcons/автотовары.jpg"
+},{
+  "_id": {
+    "$oid": "61b04198bb7a281406f301a1"
+  },
+  "name": "Телефоны и планшеты",
+  "__v": 0,
+  "iconPath": "/uploads/categoriesIcons/телефоны, планшеты.jpg"
+},{
+  "_id": {
+    "$oid": "61b041c1bb7a281406f301ab"
+  },
+  "name": "Компьютеры",
+  "__v": 0,
+  "iconPath": "/uploads/categoriesIcons/компьютеры.jpg"
+},{
+  "_id": {
+    "$oid": "61b041c8bb7a281406f301ad"
+  },
+  "name": "Животные",
+  "__v": 0,
+  "iconPath": "/uploads/categoriesIcons/животные.jpg"
+},{
+  "_id": {
+    "$oid": "61b041cfbb7a281406f301af"
+  },
+  "name": "Одежда",
+  "__v": 0,
+  "iconPath": "/uploads/categoriesIcons/одежда.jpg"
+},{
+  "_id": {
+    "$oid": "61b041d7bb7a281406f301b1"
+  },
+  "name": "Туризм",
+  "__v": 0,
+  "iconPath": "/uploads/categoriesIcons/туризм.jpg"
+},{
+  "_id": {
+    "$oid": "61b041e1bb7a281406f301b3"
+  },
+  "name": "Бытовая техника",
+  "__v": 0,
+  "iconPath": "/uploads/categoriesIcons/бытовая техника.jpg"
+},{
+  "_id": {
+    "$oid": "61b04202bb7a281406f301b9"
+  },
+  "name": "Мебель",
+  "__v": 0,
+  "iconPath": "/uploads/categoriesIcons/мебель.jpg"
+},{
+  "_id": {
+    "$oid": "61b04c552cce6320f2112ad0"
+  },
+  "name": "Детские товары",
+  "__v": 0,
+  "iconPath": "/uploads/categoriesIcons/детские товары.jpg"
+},{
+  "_id": {
+    "$oid": "61b04cadd3b4e3c5cf6cd97a"
+  },
+  "name": "Игрушки",
+  "__v": 0,
+  "iconPath": "/uploads/categoriesIcons/игрушки.jpg"
+},{
+  "_id": {
+    "$oid": "61b887cb0b9e11efa5795c85"
+  },
+  "name": "Постельное бельё",
+  "__v": 0,
+  "iconPath": "/uploads/categoriesIcons/постельное белье.jpg"
+},{
+  "_id": {
+    "$oid": "61b890125db46bdfbe49a996"
+  },
+  "name": "Автомобили",
+  "__v": 0,
+  "iconPath": "/uploads/categoriesIcons/автомобили.jpg"
+},{
+  "_id": {
+    "$oid": "61b8907b5db46bdfbe49a9b0"
+  },
+  "name": "Фото и видеокамеры",
+  "__v": 0,
+  "iconPath": "/uploads/categoriesIcons/фото и видеокамеры.jpg"
+},{
+  "_id": {
+    "$oid": "61b8909a5db46bdfbe49a9be"
+  },
+  "name": "ТВ, аудио, видео",
+  "__v": 0,
+  "iconPath": "/uploads/categoriesIcons/тв, видео, аудио.jpg"
+},{
+  "_id": {
+    "$oid": "61b890b15db46bdfbe49a9c0"
+  },
+  "name": "Спортивные товары",
+  "__v": 0,
+  "iconPath": "/uploads/categoriesIcons/спортивные товары.jpg"
+}]
