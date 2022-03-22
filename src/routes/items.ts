@@ -35,6 +35,7 @@ router.post("/", async (req: Request, res: Response) => {
     category: category
       ? category
       : await Category.findOne({ name: "Остальные" }),
+    dateOfPost: new Date().toLocaleDateString("ru-RU"),
   });
   try {
     newItem = await newItem.save();

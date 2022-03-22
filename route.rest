@@ -40,7 +40,7 @@ Content-Type: Application/json
     "name": "test22222",
     "description": "test22222",
     "price": "8500332",
-    "userId": "61f0226b309ea1cda9fff05c",
+    "userId": "623945b7247004f94d94c621",
     "categoryId": "61a1524b492e5ffc8098bc47"
 }
 

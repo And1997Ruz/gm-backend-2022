@@ -32,7 +32,10 @@ var ItemSchema = new mongoose_1.default.Schema({
     },
     dateOfPost: {
         type: String,
-        default: new Date().toLocaleDateString("ru-RU"),
+        default: function () {
+            var date = new Date().toLocaleDateString("ru-RU");
+            return date;
+        },
     },
     itemPicture: {
         type: [String],

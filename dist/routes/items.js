@@ -98,6 +98,7 @@ router.post("/", function (req, res) { return __awaiter(void 0, void 0, void 0, 
                 _d.label = 5;
             case 5:
                 newItem = new (_a.apply(Item_1.default, [void 0, (_c.category = _b,
+                        _c.dateOfPost = new Date().toLocaleDateString("ru-RU"),
                         _c)]))();
                 _d.label = 6;
             case 6:
