@@ -28,10 +28,6 @@ const ItemSchema = new mongoose.Schema({
   },
   dateOfPost: {
     type: String,
-    default: () => {
-      const date = new Date().toLocaleDateString("ru-RU");
-      return date;
-    },
   },
   itemPicture: {
     type: [String],
